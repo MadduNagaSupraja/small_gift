@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+h1{
+    font-size: 45px;
+    background-color: white;
+    color: green;
+    font-weight: 600;
+    text-align: center;
+    border: 3px solid red;
+    background: linear-gradient(to bottom left,purple,coral);
+    
+}
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right,gold,hotpink);
+}
+img{
+    transform: rotate(30deg);
+}
+#img1{
+    position: absolute;
+    left:100px;
+    transition: transform 1s;
+}
+#img4{
+    position: absolute;
+    left:160px;
+    transition: transform 1s;
+}
+#img3{
+    position: absolute;
+    left:220px;
+    transition: transform 1s;
+}
+#img5{
+    position: absolute;
+    left:280px;
+    transition: transform 1s;
+}
+#img6{
+    position: absolute;
+    left:340px;
+    transition: transform 1s;
+}
+#img7{
+    position: absolute;
+    left:400px;
+    transition: transform 1s;
+}
+#img8{
+    position: absolute;
+    left:460px;
+    transition: transform 1s;
+}
+#img9{
+    position: absolute;
+    left:540px;
+    transition: transform 1s;
+}
+#img10{
+    position: absolute;
+    left:600px;
+    transition: transform 1s;
+}
+#img11{
+    position: absolute;
+    left:660px;
+    transition: transform 1s;
+}
+#img12{
+    position: absolute;
+    left:720px;
+    transition: transform 1s;
+}
+#img2{
+    position: absolute;
+    left:780px;
+    transition: transform 1s;
+}
+#img13{
+    position: absolute;
+    left:840px;
+    transition: transform 1s;
+}
+#img14{
+    position: absolute;
+    left:900px;
+    transition: transform 1s;
+}
+#img15{
+    position: absolute;
+    left:960px;
+    transition: transform 1s;
+}
+#img16{
+    position: absolute;
+    left:1020px;
+    transition: transform 1s;
+}
+#img1:hover,#img4:hover,#img3:hover,#img5:hover,#img6:hover,#img7:hover,#img8:hover,#img9:hover,#img10:hover,#img11:hover,#img12:hover,#img3:hover,#img2:hover,#img13:hover,#img14:hover,#img15:hover,#img16:hover{
+    z-index: 2;
+    border-radius: 20px;
+    border: 3px solid black;
+    transform: rotate(0deg);
+
+}
